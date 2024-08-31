@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="assets/img/favicon.png">
+
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Kasxer</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Kasxer</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="theme">
+        <img src="assets/img/moon.png" id="iconMS" alt="">
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">Hi,<br>we are <span class="home__title-color">KASXER</span><br> Vending Services</h1>
+
+        <a href="#contact" class="button">Contact</a>
+        <a href="#projects" class="buttonRe">Services</a>
+      </div>
+
+      <div class="home__social">
+        <a href="https://www.facebook.com/profile.php?id=61563875650279" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+        <a href="https://x.com/i/flow/single_sign_on" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.instagram.com/kasxerofficials/" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+      </div>
+
+      <div class="home__img">
+        <img src="assets/img/vending.png" /> 
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+      <h1 class="section-title">About</h1>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/logo.png" alt="">
+        </div>
+
+        <div>
+          <h2 class="about__subtitle">WHat We Do</h2>
+          <p class="about__text">At KASXER, we specialize in offering high-quality vending machines stocked with a diverse selection of premium food and beverages. We manage all aspects, from installation and maintenance to restocking, ensuring your customers always have access to their favorite snacks and drinks. Rely on us for dependable service and an excellent product range!.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="projects">
+      <h2 class="section-title">Services & Location</h2>
+
+      <div class="work__container bd-grid">
+        <!-- 1815 × 1727  resize-->
+
+        <div class="card">
+          <a href="" class="work__img">
+            <img src="assets/img/laundry.png" alt="">
+          </a>
+            <a href="" class="btnp">Laundry</a>
+        </div>
+
+        <div class="card">
+          <a href="" class="work__img">
+            <img src="assets/img/apt.png" alt="First Website">
+          </a>
+          <a href="" class="btnp">Apartment</a>
+        </div>
+
+        <div class="card">
+          <a href="" class="work__img">
+            <img src="assets/img/ofc.png" alt="Dice website">
+          </a>
+            <a href="" class="btnp">corporate Office</a>
+        </div>
+        <div class="card">
+          <a href="" class="work__img">
+            <img src="assets/img/kid.png" alt="Dice website">
+          </a>
+            <a href="" class="btnp">Indoor Park</a>
+        </div>
+        <div class="card">
+          <a href="" class="work__img">
+            <img src="assets/img/car.png" alt="Dice website">
+          </a>
+            <a href="" class="btnp">Car Dealership</a>
+        </div>
+        <div class="card">
+          <a href="" class="work__img">
+            <img src="assets/img/air.png" alt="Dice website">
+          </a>
+            <a href="" class="btnp">Airport</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact__container bd-grid">
+        <form id="my-form" action="https://formspree.io/f/mzboyvbe" method="POST" class="contact__form">
+          <input type="text" placeholder="Name" class="contact__input">
+          <input class="contact__input"type="email" name="email" placeholder="Email"/>
+          <textarea type="text" name="message" cols="0" rows="10" class="contact__input" placeholder="Send me message!"></textarea>
+          <button id="my-form-button" class="btn">Submit</button>
+          <p id="my-form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title">KASXER LLC</p>
+    <div class="footer__social">
+      <a href="https://www.instagram.com/kasxerofficials/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61563875650279" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="footer__icon"><i class='bx bxs-envelope'></i></a>
+    <p class="footer__copy">©KASXER LLC 2024</p>
+    <p class="footer__copy">kasxerofficial@gmail.com</p>
+    <p class="footer__copy">+14705309251</p>
+    </div>
+    
+  </footer>
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
